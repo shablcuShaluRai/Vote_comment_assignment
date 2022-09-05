@@ -1,0 +1,8 @@
+{
+  "astro.plugin.typescript.findReferences.enable": false,
+  "astro.plugin.typescript.completions.enable": false,
+  "astro.plugin.typescript.codeActions.enable": false,
+  "astro.plugin.typescript.diagnostics.enable": false,
+  "astro.plugin.typescript.documentSymbols.enable": false,
+  "astro.plugin.typescript.enable": false
+}

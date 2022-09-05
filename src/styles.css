@@ -1,0 +1,263 @@
+body {
+  margin: 0;
+  font-family: "Roboto";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+  background-color: darkgray;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1372px;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.25rem 4.88rem;
+}
+
+.container .comment-vote-btn-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.container .comment-vote-btn-wrap h2 {
+  margin: 0px;
+}
+
+.text {
+  margin-bottom: 0px;
+  text-align: center;
+}
+.comment-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.filter-text-gap {
+  margin-right: 34px;
+  cursor: pointer;
+}
+
+.filter-text-gap.selected {
+  color: #4edcd8;
+  cursor: pointer;
+}
+
+.container .commentlist-wrapper {
+  background: #ffffff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  padding: 30px 35px;
+  gap: 6px;
+  display: flex;
+  flex-direction: column;
+}
+.container .commentlist-wrapper .title-img-wrap {
+  display: flex;
+  align-items: flex-start;
+}
+.image-size {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+  padding: 0;
+  margin: 0;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.name {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.voting-wrap {
+  display: flex;
+  gap: 20px;
+}
+
+input {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  border-color: transparent;
+  color: #c4c4c4;
+  margin: 10px 0px 20px 0px;
+}
+input:focus {
+  border-color: transparent;
+  outline: transparent;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.voting-container {
+  display: flex;
+  gap: 20px;
+}
+.dropdown * {
+  box-sizing: border-box;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown.active {
+  width: 125px;
+}
+.select {
+  cursor: pointer;
+  transition: background 0.3s;
+  color: #fff;
+}
+
+.bubble {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  text-align: center;
+  box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.25);
+  background: #4edcd8;
+  border-radius: 50px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.bubble.active {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.menu {
+  font-weight: 400;
+  font-size: 18px;
+  list-style: none;
+  padding: 0.2em 0.5em;
+  background: #4edcd8;
+  color: #fff;
+  position: absolute;
+  top: 0.9em;
+  left: 50%;
+  min-width: 125px;
+  transform: translateX(-50%);
+  max-height: 190px;
+  overflow: scroll;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.menu li {
+  cursor: pointer;
+  text-align: center;
+}
+
+.menu li:hover {
+  background: blue;
+}
+
+.selected {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.select.zodiac {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(./static/space.png);
+  color: white;
+}
+
+textarea {
+  resize: none;
+}
+.story {
+  margin-top: 10px;
+  border: transparent;
+}
+
+.story:focus {
+  border-color: transparent;
+  outline: transparent;
+}
+
+.send-image {
+  text-align: end;
+  margin: 10px 0px;
+}
+
+.send-image i {
+  transform: rotate(40deg);
+  color: #6b6b6a;
+}
+
+i.active {
+  color: #4edcd8;
+}
+
+.heart-container .like {
+  margin-left: 5px;
+}
+.heart-container i {
+  color: #6b6b6a;
+}
+.heart-container .updated {
+  color: #4edcd8;
+}
+
+.wing-image-wrap {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  justify-content: center;
+}
+.wing-image-wrap p {
+  margin: 0px;
+}
+
+.wing-image-wrap img {
+  width: 20px;
+  height: 16px;
+  margin: 0px 5px;
+}
+
+.typography {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.btn-wrap {
+  margin-right: 20px;
+  padding: 5px 20px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
